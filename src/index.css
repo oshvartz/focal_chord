@@ -1,0 +1,58 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-neon-cyan: #00f0ff;
+  --color-neon-cyan-dim: #00f0ff33;
+  --color-surface: #0a0a0f;
+  --color-surface-light: #14141f;
+  --color-surface-lighter: #1e1e2e;
+  --color-text-dim: #ffffff4d;
+  --color-text-muted: #ffffff80;
+}
+
+html, body, #root {
+  @apply h-full bg-surface text-white antialiased;
+  overflow: hidden;
+}
+
+/* Glow utilities */
+.glow-box {
+  box-shadow: 0 0 20px var(--color-neon-cyan-dim),
+              0 0 60px var(--color-neon-cyan-dim),
+              inset 0 0 20px var(--color-neon-cyan-dim);
+  border: 1px solid var(--color-neon-cyan);
+}
+
+.glow-text {
+  text-shadow: 0 0 10px var(--color-neon-cyan),
+               0 0 30px var(--color-neon-cyan-dim);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--color-neon-cyan-dim); border-radius: 2px; }
+
+/* Scrubber styling */
+input[type='range'] {
+  @apply appearance-none bg-transparent w-full cursor-pointer;
+}
+input[type='range']::-webkit-slider-runnable-track {
+  @apply h-1.5 rounded-full;
+  background: linear-gradient(to right, var(--color-neon-cyan) var(--progress, 0%), #1e1e2e var(--progress, 0%));
+}
+input[type='range']::-webkit-slider-thumb {
+  @apply appearance-none w-4 h-4 rounded-full bg-neon-cyan;
+  margin-top: -5px;
+  box-shadow: 0 0 10px var(--color-neon-cyan);
+}
+input[type='range']::-moz-range-track {
+  @apply h-1.5 rounded-full bg-surface-lighter;
+}
+input[type='range']::-moz-range-thumb {
+  @apply w-4 h-4 rounded-full bg-neon-cyan border-none;
+  box-shadow: 0 0 10px var(--color-neon-cyan);
+}
+input[type='range']::-moz-range-progress {
+  @apply h-1.5 rounded-full bg-neon-cyan;
+}

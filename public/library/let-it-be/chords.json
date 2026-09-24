@@ -1,0 +1,115 @@
+{
+  "metadata": {
+    "title": "Let It Be",
+    "artist": "The Beatles",
+    "duration": 243.0,
+    "audio_source": "audio.mp3"
+  },
+  "chords": [
+    { "chord": "C", "start_time": 0.000, "end_time": 3.380 },
+    { "chord": "G", "start_time": 3.380, "end_time": 6.760 },
+    { "chord": "Am", "start_time": 6.760, "end_time": 10.140 },
+    { "chord": "F", "start_time": 10.140, "end_time": 13.520 },
+    { "chord": "C", "start_time": 13.520, "end_time": 16.900 },
+    { "chord": "G", "start_time": 16.900, "end_time": 20.280 },
+    { "chord": "F", "start_time": 20.280, "end_time": 23.660 },
+    { "chord": "C", "start_time": 23.660, "end_time": 27.040 },
+
+    { "chord": "C", "start_time": 27.040, "end_time": 30.420 },
+    { "chord": "G", "start_time": 30.420, "end_time": 33.800 },
+    { "chord": "Am", "start_time": 33.800, "end_time": 37.180 },
+    { "chord": "F", "start_time": 37.180, "end_time": 40.560 },
+    { "chord": "C", "start_time": 40.560, "end_time": 43.940 },
+    { "chord": "G", "start_time": 43.940, "end_time": 47.320 },
+    { "chord": "F", "start_time": 47.320, "end_time": 50.700 },
+    { "chord": "C", "start_time": 50.700, "end_time": 54.080 },
+
+    { "chord": "Am", "start_time": 54.080, "end_time": 57.460 },
+    { "chord": "G", "start_time": 57.460, "end_time": 60.840 },
+    { "chord": "F", "start_time": 60.840, "end_time": 64.220 },
+    { "chord": "C", "start_time": 64.220, "end_time": 67.600 },
+
+    { "chord": "C", "start_time": 67.600, "end_time": 70.980 },
+    { "chord": "G", "start_time": 70.980, "end_time": 74.360 },
+    { "chord": "Am", "start_time": 74.360, "end_time": 77.740 },
+    { "chord": "F", "start_time": 77.740, "end_time": 81.120 },
+    { "chord": "C", "start_time": 81.120, "end_time": 84.500 },
+    { "chord": "G", "start_time": 84.500, "end_time": 87.880 },
+    { "chord": "F", "start_time": 87.880, "end_time": 91.260 },
+    { "chord": "C", "start_time": 91.260, "end_time": 94.640 },
+
+    { "chord": "Am", "start_time": 94.640, "end_time": 98.020 },
+    { "chord": "G", "start_time": 98.020, "end_time": 101.400 },
+    { "chord": "F", "start_time": 101.400, "end_time": 104.780 },
+    { "chord": "C", "start_time": 104.780, "end_time": 108.160 },
+
+    { "chord": "F", "start_time": 108.160, "end_time": 111.540 },
+    { "chord": "C", "start_time": 111.540, "end_time": 114.920 },
+    { "chord": "F", "start_time": 114.920, "end_time": 118.300 },
+    { "chord": "C", "start_time": 118.300, "end_time": 121.680 },
+    { "chord": "F", "start_time": 121.680, "end_time": 125.060 },
+    { "chord": "C", "start_time": 125.060, "end_time": 128.440 },
+    { "chord": "G", "start_time": 128.440, "end_time": 131.820 },
+    { "chord": "F", "start_time": 131.820, "end_time": 135.200 },
+    { "chord": "C", "start_time": 135.200, "end_time": 138.580 },
+
+    { "chord": "C", "start_time": 138.580, "end_time": 141.960 },
+    { "chord": "G", "start_time": 141.960, "end_time": 145.340 },
+    { "chord": "Am", "start_time": 145.340, "end_time": 148.720 },
+    { "chord": "F", "start_time": 148.720, "end_time": 152.100 },
+    { "chord": "C", "start_time": 152.100, "end_time": 155.480 },
+    { "chord": "G", "start_time": 155.480, "end_time": 158.860 },
+    { "chord": "F", "start_time": 158.860, "end_time": 162.240 },
+    { "chord": "C", "start_time": 162.240, "end_time": 165.620 },
+
+    { "chord": "Am", "start_time": 165.620, "end_time": 169.000 },
+    { "chord": "G", "start_time": 169.000, "end_time": 172.380 },
+    { "chord": "F", "start_time": 172.380, "end_time": 175.760 },
+    { "chord": "C", "start_time": 175.760, "end_time": 179.140 },
+
+    { "chord": "Am", "start_time": 179.140, "end_time": 182.520 },
+    { "chord": "G", "start_time": 182.520, "end_time": 185.900 },
+    { "chord": "F", "start_time": 185.900, "end_time": 189.280 },
+    { "chord": "C", "start_time": 189.280, "end_time": 192.660 },
+
+    { "chord": "F", "start_time": 192.660, "end_time": 199.420 },
+    { "chord": "C", "start_time": 199.420, "end_time": 206.180 },
+    { "chord": "G", "start_time": 206.180, "end_time": 212.940 },
+    { "chord": "F", "start_time": 212.940, "end_time": 219.700 },
+    { "chord": "C", "start_time": 219.700, "end_time": 226.460 },
+    { "chord": "F", "start_time": 226.460, "end_time": 233.220 },
+    { "chord": "C", "start_time": 233.220, "end_time": 243.000 }
+  ],
+  "lyrics": [
+    { "text": "When I find myself in times of trouble", "start_time": 27.040, "end_time": 33.800 },
+    { "text": "Mother Mary comes to me", "start_time": 33.800, "end_time": 40.560 },
+    { "text": "Speaking words of wisdom", "start_time": 40.560, "end_time": 47.320 },
+    { "text": "Let it be", "start_time": 47.320, "end_time": 54.080 },
+
+    { "text": "Let it be, let it be", "start_time": 54.080, "end_time": 60.840 },
+    { "text": "Let it be, let it be", "start_time": 60.840, "end_time": 64.220 },
+    { "text": "Whisper words of wisdom, let it be", "start_time": 64.220, "end_time": 67.600 },
+
+    { "text": "And when the broken-hearted people", "start_time": 67.600, "end_time": 74.360 },
+    { "text": "Living in the world agree", "start_time": 74.360, "end_time": 81.120 },
+    { "text": "There will be an answer", "start_time": 81.120, "end_time": 87.880 },
+    { "text": "Let it be", "start_time": 87.880, "end_time": 94.640 },
+
+    { "text": "Let it be, let it be", "start_time": 94.640, "end_time": 101.400 },
+    { "text": "Let it be, let it be", "start_time": 101.400, "end_time": 104.780 },
+    { "text": "There will be an answer, let it be", "start_time": 104.780, "end_time": 108.160 },
+
+    { "text": "And when the night is cloudy", "start_time": 138.580, "end_time": 145.340 },
+    { "text": "There is still a light that shines on me", "start_time": 145.340, "end_time": 152.100 },
+    { "text": "Shine on until tomorrow", "start_time": 152.100, "end_time": 158.860 },
+    { "text": "Let it be", "start_time": 158.860, "end_time": 165.620 },
+
+    { "text": "Let it be, let it be", "start_time": 165.620, "end_time": 172.380 },
+    { "text": "Let it be, let it be", "start_time": 172.380, "end_time": 175.760 },
+    { "text": "There will be an answer, let it be", "start_time": 175.760, "end_time": 179.140 },
+
+    { "text": "Let it be, let it be", "start_time": 179.140, "end_time": 185.900 },
+    { "text": "Let it be, let it be", "start_time": 185.900, "end_time": 189.280 },
+    { "text": "Whisper words of wisdom, let it be", "start_time": 189.280, "end_time": 192.660 }
+  ]
+}
