@@ -7,6 +7,14 @@ export function useAudioEngine() {
   const currentTime = useMotionValue(0);
   const duration = useMotionValue(0);
   const [isPlaying, setIsPlaying] = useState(false);
+  const [volume, setVolumeState] = useState(1);
+
+  const setVolume = useCallback((val) => {
+    if (audioRef.current) {
+      audioRef.current.volume = val;
+      setVolumeState(val);
+    }
+  }, []);
 
   const tick = useCallback(() => {
     if (audioRef.current) {
@@ -70,8 +78,9 @@ export function useAudioEngine() {
     if (audioRef.current) {
       audioRef.current.src = src;
       audioRef.current.load();
+      audioRef.current.volume = volume;
     }
-  }, [stopLoop, currentTime]);
+  }, [stopLoop, currentTime, volume]);
 
   // Set up audio element event listeners
   useEffect(() => {
@@ -101,6 +110,8 @@ export function useAudioEngine() {
     currentTime,
     duration,
     isPlaying,
+    volume,
+    setVolume,
     play,
     pause,
     restart,

@@ -6,7 +6,7 @@ import { useChordIndex } from '../hooks/useChordIndex';
 import { useLyricIndex } from '../hooks/useLyricIndex';
 
 export default function PlayerView({ songData, audioEngine }) {
-  const { currentTime, duration, isPlaying, play, pause, restart, seek } = audioEngine;
+  const { currentTime, duration, isPlaying, volume, setVolume, play, pause, restart, seek } = audioEngine;
   const { chords = [], lyrics = [], metadata = {} } = songData || {};
 
   const { activeIndex: activeChordIndex } = useChordIndex(chords, currentTime);
@@ -58,6 +58,8 @@ export default function PlayerView({ songData, audioEngine }) {
         seek={seek}
         currentTime={currentTime}
         duration={duration}
+        volume={volume}
+        setVolume={setVolume}
       />
     </div>
   );
