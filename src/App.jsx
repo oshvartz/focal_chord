@@ -40,7 +40,7 @@ export default function App() {
       {/* Main content */}
       <main className="flex-1 overflow-hidden">
         {songData ? (
-          <PlayerView songData={songData} audioEngine={audioEngine} />
+          <PlayerView songData={songData} audioEngine={audioEngine} songId={currentSongId} />
         ) : (
           <div className="h-full flex flex-col items-center justify-center gap-4 px-4">
             <div className="text-6xl">🎸</div>

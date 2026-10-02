@@ -1,3 +1,5 @@
+import { useMemo, useState, useEffect } from 'react';
+import { useTransform } from 'framer-motion';
 import ChordStream from './ChordStream';
 import LyricAnchor from './LyricAnchor';
 import ControlDeck from './ControlDeck';
@@ -5,12 +7,30 @@ import ChordDiagram from './ChordDiagram';
 import { useChordIndex } from '../hooks/useChordIndex';
 import { useLyricIndex } from '../hooks/useLyricIndex';
 
-export default function PlayerView({ songData, audioEngine }) {
+export default function PlayerView({ songData, audioEngine, songId }) {
   const { currentTime, duration, isPlaying, volume, setVolume, play, pause, restart, seek } = audioEngine;
-  const { chords = [], lyrics = [], metadata = {} } = songData || {};
+  const { chords: rawChords = [], lyrics = [], metadata = {} } = songData || {};
 
-  const { activeIndex: activeChordIndex } = useChordIndex(chords, currentTime);
-  const { activeIndex: activeLyricIndex } = useLyricIndex(lyrics, currentTime);
+  const chords = useMemo(() => rawChords, [rawChords]);
+
+  // Lyric sync offset state
+  const [lyricOffset, setLyricOffset] = useState(metadata.lyricOffset !== undefined ? metadata.lyricOffset : 1.0);
+
+  useEffect(() => {
+    if (metadata.lyricOffset !== undefined) {
+      setLyricOffset(metadata.lyricOffset);
+    } else {
+      setLyricOffset(1.0);
+    }
+  }, [metadata.lyricOffset, songId]);
+
+  // By adding offset to currentTime, we make the lyric engine think we are further
+  // ahead in time, which causes lyrics to appear earlier on screen.
+  // We apply this to both lyrics and chords so they stay in perfect sync!
+  const adjustedTime = useTransform(currentTime, t => Math.max(0, t + lyricOffset));
+
+  const { activeIndex: activeChordIndex } = useChordIndex(chords, adjustedTime);
+  const { activeIndex: activeLyricIndex } = useLyricIndex(lyrics, adjustedTime);
 
   const activeChordName = activeChordIndex >= 0 ? chords[activeChordIndex].chord : null;
 
@@ -26,7 +46,7 @@ export default function PlayerView({ songData, audioEngine }) {
       <div className="flex-shrink-0">
         <ChordStream
           chords={chords}
-          currentTime={currentTime}
+          currentTime={adjustedTime}
           activeIndex={activeChordIndex}
           songDuration={metadata.duration || 0}
         />
@@ -60,6 +80,9 @@ export default function PlayerView({ songData, audioEngine }) {
         duration={duration}
         volume={volume}
         setVolume={setVolume}
+        lyricOffset={lyricOffset}
+        setLyricOffset={setLyricOffset}
+        songId={songId}
       />
     </div>
   );
