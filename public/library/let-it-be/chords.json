@@ -3,8 +3,55 @@
     "title": "Let It Be",
     "artist": "The Beatles",
     "duration": 243.027,
-    "audio_source": "audio.mp3"
+    "audio_source": "audio.mp3",
+    "lyricOffset": 0
   },
+  "sections": [
+    {
+      "type": "intro",
+      "start_time": 0.07
+    },
+    {
+      "type": "verse",
+      "start_time": 13.305
+    },
+    {
+      "type": "chorus",
+      "start_time": 38.801
+    },
+    {
+      "type": "verse",
+      "start_time": 52.849
+    },
+    {
+      "type": "chorus",
+      "start_time": 78.507
+    },
+    {
+      "type": "instrumental",
+      "start_time": 105.302
+    },
+    {
+      "type": "solo",
+      "start_time": 118.84
+    },
+    {
+      "type": "chorus",
+      "start_time": 146.425
+    },
+    {
+      "type": "verse",
+      "start_time": 161.541
+    },
+    {
+      "type": "chorus",
+      "start_time": 188.453
+    },
+    {
+      "type": "outro",
+      "start_time": 230.365
+    }
+  ],
   "chords": [
     {
       "chord": "C",
@@ -24,11 +71,11 @@
     {
       "chord": "F",
       "start_time": 5.039,
-      "end_time": 6.711
+      "end_time": 6.687
     },
     {
       "chord": "C",
-      "start_time": 6.711,
+      "start_time": 6.687,
       "end_time": 8.336
     },
     {
@@ -49,55 +96,60 @@
     {
       "chord": "Dm",
       "start_time": 11.633,
-      "end_time": 12.492
+      "end_time": 12.469
     },
     {
       "chord": "C",
-      "start_time": 12.492,
-      "end_time": 13.328
+      "start_time": 12.469,
+      "end_time": 13.305
     },
     {
       "chord": "C",
-      "start_time": 13.328,
-      "end_time": 15.186
+      "start_time": 13.305,
+      "end_time": 14.977
     },
     {
       "chord": "G",
-      "start_time": 15.186,
-      "end_time": 17.043
+      "start_time": 14.977,
+      "end_time": 16.649
     },
     {
       "chord": "Am",
-      "start_time": 17.043,
-      "end_time": 18.762
+      "start_time": 16.649,
+      "end_time": 17.903
     },
     {
       "chord": "F",
-      "start_time": 18.762,
-      "end_time": 20.526
+      "start_time": 17.903,
+      "end_time": 19.574
     },
     {
       "chord": "C",
-      "start_time": 20.526,
-      "end_time": 22.268
+      "start_time": 19.574,
+      "end_time": 21.2
     },
     {
       "chord": "G",
-      "start_time": 22.268,
-      "end_time": 23.963
+      "start_time": 21.2,
+      "end_time": 22.779
     },
     {
       "chord": "F",
+      "start_time": 22.779,
+      "end_time": 23.963
+    },
+    {
+      "chord": "C",
       "start_time": 23.963,
       "end_time": 24.799
     },
     {
-      "chord": "C",
+      "chord": "Dm",
       "start_time": 24.799,
       "end_time": 25.612
     },
     {
-      "chord": "Dm",
+      "chord": "C",
       "start_time": 25.612,
       "end_time": 26.401
     },
@@ -107,706 +159,891 @@
       "end_time": 27.191
     },
     {
-      "chord": "C",
-      "start_time": 27.191,
-      "end_time": 28.77
-    },
-    {
       "chord": "G",
-      "start_time": 28.77,
-      "end_time": 30.348
+      "start_time": 27.191,
+      "end_time": 28.793
     },
     {
       "chord": "Am",
-      "start_time": 30.348,
-      "end_time": 31.951
+      "start_time": 28.793,
+      "end_time": 30.441
     },
     {
       "chord": "F",
-      "start_time": 31.951,
-      "end_time": 33.692
+      "start_time": 30.441,
+      "end_time": 32.113
     },
     {
       "chord": "C",
-      "start_time": 33.692,
-      "end_time": 35.457
+      "start_time": 32.113,
+      "end_time": 33.785
     },
     {
       "chord": "G",
-      "start_time": 35.457,
-      "end_time": 37.129
+      "start_time": 33.785,
+      "end_time": 35.48
     },
     {
       "chord": "F",
+      "start_time": 35.48,
+      "end_time": 36.316
+    },
+    {
+      "chord": "C",
+      "start_time": 36.316,
+      "end_time": 37.129
+    },
+    {
+      "chord": "Dm",
       "start_time": 37.129,
       "end_time": 37.965
     },
     {
       "chord": "C",
       "start_time": 37.965,
-      "end_time": 38.824
-    },
-    {
-      "chord": "Dm",
-      "start_time": 38.824,
-      "end_time": 39.683
-    },
-    {
-      "chord": "C",
-      "start_time": 39.683,
-      "end_time": 40.519
-    },
-    {
-      "chord": "C",
-      "start_time": 40.519,
-      "end_time": 42.144
+      "end_time": 38.801
     },
     {
       "chord": "Am",
+      "start_time": 38.801,
+      "end_time": 40.472
+    },
+    {
+      "chord": "G",
+      "start_time": 40.472,
+      "end_time": 42.144
+    },
+    {
+      "chord": "F",
       "start_time": 42.144,
       "end_time": 43.816
     },
     {
-      "chord": "G",
+      "chord": "C",
       "start_time": 43.816,
       "end_time": 45.465
     },
     {
-      "chord": "F",
+      "chord": "C",
       "start_time": 45.465,
-      "end_time": 46.347
-    },
-    {
-      "chord": "C",
-      "start_time": 46.347,
-      "end_time": 47.206
-    },
-    {
-      "chord": "C",
-      "start_time": 47.206,
-      "end_time": 48.994
+      "end_time": 47.09
     },
     {
       "chord": "G",
-      "start_time": 48.994,
-      "end_time": 50.759
+      "start_time": 47.09,
+      "end_time": 48.715
     },
     {
       "chord": "F",
-      "start_time": 50.759,
-      "end_time": 51.618
+      "start_time": 48.715,
+      "end_time": 50.341
     },
     {
       "chord": "C",
-      "start_time": 51.618,
-      "end_time": 52.431
+      "start_time": 50.341,
+      "end_time": 51.177
     },
     {
       "chord": "Dm",
-      "start_time": 52.431,
-      "end_time": 53.267
+      "start_time": 51.177,
+      "end_time": 52.013
     },
     {
       "chord": "C",
-      "start_time": 53.267,
-      "end_time": 54.056
+      "start_time": 52.013,
+      "end_time": 52.849
     },
     {
       "chord": "C",
-      "start_time": 54.056,
-      "end_time": 55.635
+      "start_time": 52.849,
+      "end_time": 54.033
     },
     {
       "chord": "G",
-      "start_time": 55.635,
-      "end_time": 57.26
+      "start_time": 54.033,
+      "end_time": 55.217
     },
     {
       "chord": "Am",
-      "start_time": 57.26,
-      "end_time": 58.909
+      "start_time": 55.217,
+      "end_time": 56.842
     },
     {
       "chord": "F",
-      "start_time": 58.909,
-      "end_time": 60.511
+      "start_time": 56.842,
+      "end_time": 58.468
     },
     {
       "chord": "C",
-      "start_time": 60.511,
-      "end_time": 62.183
+      "start_time": 58.468,
+      "end_time": 60.116
     },
     {
       "chord": "G",
-      "start_time": 62.183,
-      "end_time": 63.808
+      "start_time": 60.116,
+      "end_time": 61.742
     },
     {
       "chord": "F",
-      "start_time": 63.808,
-      "end_time": 64.644
+      "start_time": 61.742,
+      "end_time": 62.555
     },
     {
       "chord": "C",
-      "start_time": 64.644,
-      "end_time": 65.48
+      "start_time": 62.555,
+      "end_time": 63.39
     },
     {
       "chord": "Dm",
-      "start_time": 65.48,
-      "end_time": 66.316
+      "start_time": 63.39,
+      "end_time": 64.226
     },
     {
       "chord": "C",
-      "start_time": 66.316,
-      "end_time": 67.129
+      "start_time": 64.226,
+      "end_time": 65.062
     },
     {
       "chord": "C",
-      "start_time": 67.129,
-      "end_time": 68.778
+      "start_time": 65.062,
+      "end_time": 66.711
     },
     {
       "chord": "G",
-      "start_time": 68.778,
-      "end_time": 70.473
+      "start_time": 66.711,
+      "end_time": 68.383
     },
     {
       "chord": "Am",
-      "start_time": 70.473,
-      "end_time": 72.144
+      "start_time": 68.383,
+      "end_time": 70.031
     },
     {
       "chord": "F",
-      "start_time": 72.144,
-      "end_time": 73.863
+      "start_time": 70.031,
+      "end_time": 71.726
     },
     {
       "chord": "C",
-      "start_time": 73.863,
-      "end_time": 75.535
+      "start_time": 71.726,
+      "end_time": 73.421
     },
     {
       "chord": "G",
-      "start_time": 75.535,
-      "end_time": 77.23
+      "start_time": 73.421,
+      "end_time": 75.117
     },
     {
       "chord": "F",
-      "start_time": 77.23,
-      "end_time": 78.065
+      "start_time": 75.117,
+      "end_time": 75.952
     },
     {
       "chord": "C",
-      "start_time": 78.065,
-      "end_time": 78.971
+      "start_time": 75.952,
+      "end_time": 76.788
     },
     {
       "chord": "Dm",
-      "start_time": 78.971,
-      "end_time": 79.807
+      "start_time": 76.788,
+      "end_time": 77.648
     },
     {
       "chord": "C",
-      "start_time": 79.807,
-      "end_time": 80.643
-    },
-    {
-      "chord": "C",
-      "start_time": 80.643,
-      "end_time": 82.338
+      "start_time": 77.648,
+      "end_time": 78.507
     },
     {
       "chord": "Am",
-      "start_time": 82.338,
-      "end_time": 84.033
+      "start_time": 78.507,
+      "end_time": 80.225
     },
     {
       "chord": "G",
-      "start_time": 84.033,
-      "end_time": 85.682
+      "start_time": 80.225,
+      "end_time": 81.92
     },
     {
       "chord": "F",
-      "start_time": 85.682,
-      "end_time": 86.518
+      "start_time": 81.92,
+      "end_time": 83.592
     },
     {
       "chord": "C",
-      "start_time": 86.518,
-      "end_time": 87.353
+      "start_time": 83.592,
+      "end_time": 85.264
     },
     {
       "chord": "C",
-      "start_time": 87.353,
-      "end_time": 89.002
+      "start_time": 85.264,
+      "end_time": 86.936
     },
     {
       "chord": "G",
-      "start_time": 89.002,
-      "end_time": 90.697
+      "start_time": 86.936,
+      "end_time": 88.584
     },
     {
       "chord": "F",
-      "start_time": 90.697,
-      "end_time": 91.487
+      "start_time": 88.584,
+      "end_time": 89.42
     },
     {
       "chord": "C",
-      "start_time": 91.487,
-      "end_time": 92.346
+      "start_time": 89.42,
+      "end_time": 90.256
     },
     {
       "chord": "Dm",
-      "start_time": 92.346,
-      "end_time": 93.182
+      "start_time": 90.256,
+      "end_time": 91.069
     },
     {
       "chord": "C",
-      "start_time": 93.182,
-      "end_time": 94.018
-    },
-    {
-      "chord": "C",
-      "start_time": 94.018,
-      "end_time": 95.689
+      "start_time": 91.069,
+      "end_time": 91.881
     },
     {
       "chord": "Am",
-      "start_time": 95.689,
-      "end_time": 97.361
+      "start_time": 91.881,
+      "end_time": 93.6
     },
     {
       "chord": "G",
-      "start_time": 97.361,
-      "end_time": 99.033
+      "start_time": 93.6,
+      "end_time": 95.271
     },
     {
       "chord": "F",
-      "start_time": 99.033,
-      "end_time": 99.869
+      "start_time": 95.271,
+      "end_time": 96.92
     },
     {
       "chord": "C",
-      "start_time": 99.869,
-      "end_time": 100.682
+      "start_time": 96.92,
+      "end_time": 98.592
     },
     {
       "chord": "C",
-      "start_time": 100.682,
-      "end_time": 102.354
+      "start_time": 98.592,
+      "end_time": 100.264
     },
     {
       "chord": "G",
-      "start_time": 102.354,
-      "end_time": 104.049
+      "start_time": 100.264,
+      "end_time": 101.936
     },
     {
       "chord": "F",
-      "start_time": 104.049,
-      "end_time": 104.885
+      "start_time": 101.936,
+      "end_time": 102.772
     },
     {
       "chord": "C",
-      "start_time": 104.885,
-      "end_time": 105.72
+      "start_time": 102.772,
+      "end_time": 103.607
     },
     {
       "chord": "Dm",
-      "start_time": 105.72,
-      "end_time": 106.58
+      "start_time": 103.607,
+      "end_time": 104.467
     },
     {
       "chord": "C",
-      "start_time": 106.58,
-      "end_time": 107.462
+      "start_time": 104.467,
+      "end_time": 105.302
+    },
+    {
+      "chord": "F",
+      "start_time": 105.302,
+      "end_time": 107.021
     },
     {
       "chord": "C",
-      "start_time": 162.833,
-      "end_time": 164.574
+      "start_time": 107.021,
+      "end_time": 108.739
+    },
+    {
+      "chord": "G",
+      "start_time": 108.739,
+      "end_time": 110.457
+    },
+    {
+      "chord": "F",
+      "start_time": 110.457,
+      "end_time": 112.129
+    },
+    {
+      "chord": "C",
+      "start_time": 112.129,
+      "end_time": 115.473
+    },
+    {
+      "chord": "C",
+      "start_time": 115.473,
+      "end_time": 118.84
+    },
+    {
+      "chord": "C",
+      "start_time": 118.84,
+      "end_time": 120.558
+    },
+    {
+      "chord": "G",
+      "start_time": 120.558,
+      "end_time": 122.276
     },
     {
       "chord": "Am",
-      "start_time": 164.574,
-      "end_time": 166.339
-    },
-    {
-      "chord": "G",
-      "start_time": 166.339,
-      "end_time": 168.057
+      "start_time": 122.276,
+      "end_time": 123.995
     },
     {
       "chord": "F",
-      "start_time": 168.057,
-      "end_time": 168.963
+      "start_time": 123.995,
+      "end_time": 125.736
     },
     {
       "chord": "C",
-      "start_time": 168.963,
-      "end_time": 169.799
-    },
-    {
-      "chord": "C",
-      "start_time": 169.799,
-      "end_time": 171.517
+      "start_time": 125.736,
+      "end_time": 127.454
     },
     {
       "chord": "G",
-      "start_time": 171.517,
-      "end_time": 173.259
+      "start_time": 127.454,
+      "end_time": 129.149
     },
     {
       "chord": "F",
-      "start_time": 173.259,
-      "end_time": 174.187
+      "start_time": 129.149,
+      "end_time": 130.009
     },
     {
       "chord": "C",
-      "start_time": 174.187,
-      "end_time": 175.047
+      "start_time": 130.009,
+      "end_time": 130.868
     },
     {
       "chord": "Dm",
-      "start_time": 175.047,
-      "end_time": 175.929
+      "start_time": 130.868,
+      "end_time": 131.75
     },
     {
       "chord": "C",
-      "start_time": 175.929,
-      "end_time": 176.788
+      "start_time": 131.75,
+      "end_time": 132.609
     },
     {
       "chord": "C",
-      "start_time": 176.788,
-      "end_time": 178.53
+      "start_time": 132.609,
+      "end_time": 134.327
     },
     {
       "chord": "G",
-      "start_time": 178.53,
-      "end_time": 180.294
+      "start_time": 134.327,
+      "end_time": 136.069
     },
     {
       "chord": "Am",
-      "start_time": 180.294,
-      "end_time": 181.989
+      "start_time": 136.069,
+      "end_time": 137.81
     },
     {
       "chord": "F",
-      "start_time": 181.989,
-      "end_time": 183.731
+      "start_time": 137.81,
+      "end_time": 139.529
     },
     {
       "chord": "C",
-      "start_time": 183.731,
-      "end_time": 185.449
+      "start_time": 139.529,
+      "end_time": 141.247
     },
     {
       "chord": "G",
-      "start_time": 185.449,
-      "end_time": 187.167
+      "start_time": 141.247,
+      "end_time": 142.942
     },
     {
       "chord": "F",
-      "start_time": 187.167,
-      "end_time": 188.05
+      "start_time": 142.942,
+      "end_time": 143.824
     },
     {
       "chord": "C",
-      "start_time": 188.05,
-      "end_time": 188.862
+      "start_time": 143.824,
+      "end_time": 144.684
     },
     {
       "chord": "Dm",
-      "start_time": 188.862,
-      "end_time": 189.745
+      "start_time": 144.684,
+      "end_time": 145.566
     },
     {
       "chord": "C",
-      "start_time": 189.745,
-      "end_time": 190.627
-    },
-    {
-      "chord": "C",
-      "start_time": 190.627,
-      "end_time": 192.369
-    },
-    {
-      "chord": "G",
-      "start_time": 192.369,
-      "end_time": 194.133
+      "start_time": 145.566,
+      "end_time": 146.425
     },
     {
       "chord": "Am",
-      "start_time": 194.133,
-      "end_time": 195.898
-    },
-    {
-      "chord": "F",
-      "start_time": 195.898,
-      "end_time": 197.616
-    },
-    {
-      "chord": "C",
-      "start_time": 197.616,
-      "end_time": 199.358
+      "start_time": 146.425,
+      "end_time": 148.19
     },
     {
       "chord": "G",
-      "start_time": 199.358,
-      "end_time": 201.099
+      "start_time": 148.19,
+      "end_time": 149.978
     },
     {
       "chord": "F",
-      "start_time": 201.099,
-      "end_time": 201.959
+      "start_time": 149.978,
+      "end_time": 151.766
     },
     {
       "chord": "C",
-      "start_time": 201.959,
-      "end_time": 202.794
+      "start_time": 151.766,
+      "end_time": 153.53
+    },
+    {
+      "chord": "C",
+      "start_time": 153.53,
+      "end_time": 155.318
+    },
+    {
+      "chord": "G",
+      "start_time": 155.318,
+      "end_time": 157.083
+    },
+    {
+      "chord": "F",
+      "start_time": 157.083,
+      "end_time": 158.848
+    },
+    {
+      "chord": "C",
+      "start_time": 158.848,
+      "end_time": 159.753
     },
     {
       "chord": "Dm",
-      "start_time": 202.794,
-      "end_time": 203.677
+      "start_time": 159.753,
+      "end_time": 160.636
     },
     {
       "chord": "C",
-      "start_time": 203.677,
-      "end_time": 204.559
+      "start_time": 160.636,
+      "end_time": 161.541
     },
     {
       "chord": "C",
-      "start_time": 204.559,
-      "end_time": 206.301
+      "start_time": 161.541,
+      "end_time": 162.377
+    },
+    {
+      "chord": "G",
+      "start_time": 162.377,
+      "end_time": 164.142
     },
     {
       "chord": "Am",
-      "start_time": 206.301,
-      "end_time": 208.065
-    },
-    {
-      "chord": "G",
-      "start_time": 208.065,
-      "end_time": 209.83
+      "start_time": 164.142,
+      "end_time": 165.86
     },
     {
       "chord": "F",
-      "start_time": 209.83,
-      "end_time": 210.712
+      "start_time": 165.86,
+      "end_time": 167.625
     },
     {
       "chord": "C",
-      "start_time": 210.712,
-      "end_time": 211.548
-    },
-    {
-      "chord": "C",
-      "start_time": 211.548,
-      "end_time": 213.29
+      "start_time": 167.625,
+      "end_time": 169.366
     },
     {
       "chord": "G",
-      "start_time": 213.29,
-      "end_time": 215.031
+      "start_time": 169.366,
+      "end_time": 171.085
     },
     {
       "chord": "F",
-      "start_time": 215.031,
-      "end_time": 215.891
+      "start_time": 171.085,
+      "end_time": 171.967
     },
     {
       "chord": "C",
-      "start_time": 215.891,
-      "end_time": 216.726
+      "start_time": 171.967,
+      "end_time": 172.826
     },
     {
       "chord": "Dm",
-      "start_time": 216.726,
-      "end_time": 217.609
+      "start_time": 172.826,
+      "end_time": 173.708
     },
     {
       "chord": "C",
-      "start_time": 217.609,
-      "end_time": 218.468
+      "start_time": 173.708,
+      "end_time": 174.591
     },
     {
       "chord": "C",
-      "start_time": 218.468,
-      "end_time": 220.256
+      "start_time": 174.591,
+      "end_time": 176.356
+    },
+    {
+      "chord": "G",
+      "start_time": 176.356,
+      "end_time": 178.074
     },
     {
       "chord": "Am",
-      "start_time": 220.256,
-      "end_time": 222.021
-    },
-    {
-      "chord": "G",
-      "start_time": 222.021,
-      "end_time": 223.716
+      "start_time": 178.074,
+      "end_time": 179.815
     },
     {
       "chord": "F",
-      "start_time": 223.716,
-      "end_time": 224.598
+      "start_time": 179.815,
+      "end_time": 181.557
     },
     {
       "chord": "C",
-      "start_time": 224.598,
-      "end_time": 225.457
-    },
-    {
-      "chord": "C",
-      "start_time": 225.457,
-      "end_time": 227.245
+      "start_time": 181.557,
+      "end_time": 183.275
     },
     {
       "chord": "G",
-      "start_time": 227.245,
-      "end_time": 229.033
+      "start_time": 183.275,
+      "end_time": 185.017
     },
     {
       "chord": "F",
-      "start_time": 229.033,
-      "end_time": 229.915
+      "start_time": 185.017,
+      "end_time": 185.876
     },
     {
       "chord": "C",
-      "start_time": 229.915,
-      "end_time": 230.821
+      "start_time": 185.876,
+      "end_time": 186.735
     },
     {
       "chord": "Dm",
-      "start_time": 230.821,
-      "end_time": 231.703
+      "start_time": 186.735,
+      "end_time": 187.594
     },
     {
       "chord": "C",
-      "start_time": 231.703,
+      "start_time": 187.594,
+      "end_time": 188.453
+    },
+    {
+      "chord": "Am",
+      "start_time": 188.453,
+      "end_time": 190.195
+    },
+    {
+      "chord": "G",
+      "start_time": 190.195,
+      "end_time": 191.936
+    },
+    {
+      "chord": "F",
+      "start_time": 191.936,
+      "end_time": 193.701
+    },
+    {
+      "chord": "C",
+      "start_time": 193.701,
+      "end_time": 195.466
+    },
+    {
+      "chord": "C",
+      "start_time": 195.466,
+      "end_time": 197.207
+    },
+    {
+      "chord": "G",
+      "start_time": 197.207,
+      "end_time": 198.949
+    },
+    {
+      "chord": "F",
+      "start_time": 198.949,
+      "end_time": 199.808
+    },
+    {
+      "chord": "C",
+      "start_time": 199.808,
+      "end_time": 200.667
+    },
+    {
+      "chord": "Dm",
+      "start_time": 200.667,
+      "end_time": 201.526
+    },
+    {
+      "chord": "C",
+      "start_time": 201.526,
+      "end_time": 202.362
+    },
+    {
+      "chord": "Am",
+      "start_time": 202.362,
+      "end_time": 204.103
+    },
+    {
+      "chord": "G",
+      "start_time": 204.103,
+      "end_time": 205.868
+    },
+    {
+      "chord": "F",
+      "start_time": 205.868,
+      "end_time": 207.633
+    },
+    {
+      "chord": "C",
+      "start_time": 207.633,
+      "end_time": 209.374
+    },
+    {
+      "chord": "C",
+      "start_time": 209.374,
+      "end_time": 211.139
+    },
+    {
+      "chord": "G",
+      "start_time": 211.139,
+      "end_time": 212.857
+    },
+    {
+      "chord": "F",
+      "start_time": 212.857,
+      "end_time": 213.74
+    },
+    {
+      "chord": "C",
+      "start_time": 213.74,
+      "end_time": 214.599
+    },
+    {
+      "chord": "Dm",
+      "start_time": 214.599,
+      "end_time": 215.481
+    },
+    {
+      "chord": "C",
+      "start_time": 215.481,
+      "end_time": 216.317
+    },
+    {
+      "chord": "Am",
+      "start_time": 216.317,
+      "end_time": 218.035
+    },
+    {
+      "chord": "G",
+      "start_time": 218.035,
+      "end_time": 219.8
+    },
+    {
+      "chord": "F",
+      "start_time": 219.8,
+      "end_time": 221.565
+    },
+    {
+      "chord": "C",
+      "start_time": 221.565,
+      "end_time": 223.283
+    },
+    {
+      "chord": "C",
+      "start_time": 223.283,
+      "end_time": 225.025
+    },
+    {
+      "chord": "G",
+      "start_time": 225.025,
+      "end_time": 226.813
+    },
+    {
+      "chord": "F",
+      "start_time": 226.813,
+      "end_time": 227.718
+    },
+    {
+      "chord": "C",
+      "start_time": 227.718,
+      "end_time": 228.6
+    },
+    {
+      "chord": "Dm",
+      "start_time": 228.6,
+      "end_time": 229.483
+    },
+    {
+      "chord": "C",
+      "start_time": 229.483,
+      "end_time": 230.365
+    },
+    {
+      "chord": "F",
+      "start_time": 230.365,
+      "end_time": 232.107
+    },
+    {
+      "chord": "C",
+      "start_time": 232.107,
+      "end_time": 233.779
+    },
+    {
+      "chord": "G",
+      "start_time": 233.779,
+      "end_time": 235.474
+    },
+    {
+      "chord": "F",
+      "start_time": 235.474,
+      "end_time": 237.146
+    },
+    {
+      "chord": "C",
+      "start_time": 237.146,
+      "end_time": 240.49
+    },
+    {
+      "chord": "C",
+      "start_time": 240.49,
       "end_time": 243.027
     }
   ],
   "lyrics": [
     {
       "text": "When I find myself in times of trouble, Mother Mary comes to me",
-      "start_time": 13.328,
-      "end_time": 20.526
+      "start_time": 12.86,
+      "end_time": 19.642
     },
     {
       "text": "Speaking words of wisdom, let it be",
-      "start_time": 20.526,
-      "end_time": 27.191
+      "start_time": 19.642,
+      "end_time": 25.801
     },
     {
       "text": "And in my hour of darkness, she is standing right in front of me",
-      "start_time": 27.191,
-      "end_time": 33.692
+      "start_time": 25.801,
+      "end_time": 32.181
     },
     {
       "text": "Speaking words of wisdom, let it be",
-      "start_time": 33.692,
-      "end_time": 40.519
+      "start_time": 32.181,
+      "end_time": 37.901
     },
     {
       "text": "Let it be, let it be, let it be, let it be",
-      "start_time": 40.519,
-      "end_time": 47.206
+      "start_time": 37.901,
+      "end_time": 45.561
     },
     {
       "text": "Whisper words of wisdom, let it be",
-      "start_time": 47.206,
-      "end_time": 54.056
+      "start_time": 45.561,
+      "end_time": 51.781
     },
     {
-      "text": "And when the broken hearted people, living in the world agree",
-      "start_time": 54.056,
-      "end_time": 60.511
-    },
-    {
-      "text": "There will be an answer, let it be",
-      "start_time": 60.511,
-      "end_time": 67.129
-    },
-    {
-      "text": "But though they may be parted, there is still a chance that they may see",
-      "start_time": 67.129,
-      "end_time": 73.863
+      "text": "And when the broken hearted people living in the world agree",
+      "start_time": 51.781,
+      "end_time": 58.422
     },
     {
       "text": "There will be an answer, let it be",
-      "start_time": 73.863,
-      "end_time": 80.643
+      "start_time": 58.422,
+      "end_time": 64.782
+    },
+    {
+      "text": "For though they may be parted, there is still a chance that they will see",
+      "start_time": 64.782,
+      "end_time": 71.662
+    },
+    {
+      "text": "There will be an answer, let it be",
+      "start_time": 71.662,
+      "end_time": 77.607
     },
     {
       "text": "Let it be, let it be, let it be, let it be",
-      "start_time": 80.643,
-      "end_time": 87.353
+      "start_time": 77.607,
+      "end_time": 85.202
     },
     {
       "text": "There will be an answer, let it be",
-      "start_time": 87.353,
-      "end_time": 94.018
+      "start_time": 85.202,
+      "end_time": 90.981
     },
     {
       "text": "Let it be, let it be, let it be, let it be",
-      "start_time": 94.018,
-      "end_time": 100.682
+      "start_time": 90.981,
+      "end_time": 98.688
     },
     {
       "text": "Whisper words of wisdom, let it be",
-      "start_time": 100.682,
-      "end_time": 107.462
+      "start_time": 98.688,
+      "end_time": 145.525
     },
     {
       "text": "Let it be, let it be, let it be, let it be",
-      "start_time": 162.833,
-      "end_time": 169.799
+      "start_time": 145.525,
+      "end_time": 153.626
     },
     {
       "text": "Whisper words of wisdom, let it be",
-      "start_time": 169.799,
-      "end_time": 176.788
+      "start_time": 153.626,
+      "end_time": 160.844
     },
     {
       "text": "And when the night is cloudy, there is still a light that shines on me",
-      "start_time": 176.788,
-      "end_time": 183.731
+      "start_time": 160.844,
+      "end_time": 167.985
     },
     {
-      "text": "Shine on till tomorrow, let it be",
-      "start_time": 183.731,
-      "end_time": 190.627
+      "text": "Shine until tomorrow, let it be",
+      "start_time": 167.985,
+      "end_time": 174.885
     },
     {
       "text": "I wake up to the sound of music, Mother Mary comes to me",
-      "start_time": 190.627,
-      "end_time": 197.616
+      "start_time": 174.885,
+      "end_time": 181.905
     },
     {
       "text": "Speaking words of wisdom, let it be",
-      "start_time": 197.616,
-      "end_time": 204.559
+      "start_time": 181.905,
+      "end_time": 187.553
     },
     {
       "text": "Let it be, let it be, let it be, let it be",
-      "start_time": 204.559,
-      "end_time": 211.548
+      "start_time": 187.553,
+      "end_time": 196.365
     },
     {
       "text": "There will be an answer, let it be",
-      "start_time": 211.548,
-      "end_time": 218.468
+      "start_time": 196.365,
+      "end_time": 201.462
     },
     {
       "text": "Let it be, let it be, let it be, let it be",
-      "start_time": 218.468,
-      "end_time": 225.457
+      "start_time": 201.462,
+      "end_time": 210.246
+    },
+    {
+      "text": "There will be an answer, let it be",
+      "start_time": 210.246,
+      "end_time": 215.417
+    },
+    {
+      "text": "Let it be, let it be, let it be, let it be",
+      "start_time": 215.417,
+      "end_time": 223.379
     },
     {
       "text": "Whisper words of wisdom, let it be",
-      "start_time": 225.457,
-      "end_time": 232.632
+      "start_time": 223.379,
+      "end_time": 228.819
     }
   ]
 }
